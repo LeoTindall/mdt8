@@ -1,7 +1,13 @@
 [package]
 name = "mdt8"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["LeoTindall <lfstindall@gmail.com>"]
+description = "A command line tool to promote a regular mindfulness meditation practice."
+repository = "https://github.com/LeoTindall/mdt8"
+readme = "README.md"
+keywords = ["cli", "meditation", "mindfulness", "tool"]
+categories = ["command-line-utilities"]
+license = "ISC"
 
 [dependencies]
 clap = "2"

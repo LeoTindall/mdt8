@@ -3,10 +3,14 @@
 
 `mdt8` is a tool to help those who spend lots of time in the terminal remember to stay in touch with their bodies via mindfulness meditation.
 
+`mdt8` is licensed ISC.
+
 ## Installation
 
-If you use rust,
+If you develop Rust, you can install `mdt8` with Cargo. 
+Clone the repository, enter its directory, and run `cargo install`.
 
+If you do not have Cargo installed, visit our releases page to download a binary for your system.
 
 ## Usage
 
