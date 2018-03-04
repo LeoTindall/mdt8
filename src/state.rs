@@ -132,7 +132,7 @@ impl State {
         let s = if goal.num_hours() < 1 {
             format!("{} minutes", goal.num_minutes())
         } else {
-            format!("{} hours and {} minutes", goal.num_hours(), goal.num_minutes())
+            format!("{} hours and {} minutes", goal.num_hours(), goal.num_minutes() - (goal.num_hours() * 60))
         };
         s
     }
@@ -148,7 +148,7 @@ impl State {
         let s = if today.num_hours() < 1 {
             format!("{} minutes", today.num_minutes())
         } else {
-            format!("{} hours and {} minutes", today.num_hours(), today.num_minutes())
+            format!("{} hours and {} minutes", today.num_hours(), today.num_minutes() - (today.num_hours() * 60))
         };
         s
     }
