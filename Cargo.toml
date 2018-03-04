@@ -1,0 +1,17 @@
+[package]
+name = "mdt8"
+version = "0.1.0"
+authors = ["LeoTindall <lfstindall@gmail.com>"]
+
+[dependencies]
+clap = "2"
+
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+
+xdg = "2"
+
+chrono = { version = "0.4", features = ["serde"]}
+
+
